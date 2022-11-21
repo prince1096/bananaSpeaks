@@ -8,19 +8,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>BananaSpeaks</h1>
+    <nav class="headline">
+      <div class="headtext">BananaSpeaks</div>
+    </nav>
 
-    <textarea
-      name="BananaInput"
-      id="txt-Input"
-      placeholder="put it in english"
-      cols="30"
-      rows="10"
-    ></textarea>
-    <button id="click">Translate</button>
+    <main>
+      <textarea
+        name="BananaInput"
+        id="txt-Input"
+        placeholder="Place your message here in English"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <button class="click" id="click">Translate</button>
 
-    <div>Output will come here 👇</div>
-    <div id="output"></div>
+      <div class="final">Output will come here 👇</div>
+      <div id="output"></div>
+    </main>
+
+    <footer class="footer">
+      <div>about</div>
+      <p>
+        "Are you a fan of minions? Did you know that the gibberish they say is
+        an actual languauge. use the translator to convert yout text from
+        English to Minion speak or Banana language."
+      </p>
+    </footer>
 
     <script src="app.js"></script>
   </body>
